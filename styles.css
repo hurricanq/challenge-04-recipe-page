@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-color: #F3E6D8;
+}
+
+body {
+    background: var(--primary-color);
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+
+    /* Center the card horizontally and vertically (responsive) using Flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 1500px;
+}
+
+.card {
+    max-width: 500px;
+    background: #FFF;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.recipe-banner {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.recipe-name {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.desc {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.recipe-preparation {
+    background: var(--primary-color);
+    padding: 5px 15px 5px;
+    margin-top: 15px;
+}
+
+.preparation-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.preparation {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.section {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.nutrition {
+    display: flex;
+    align-items: center;
+}
+
+.nutrition-name {
+    margin-left: 20px;
+}
+
+.nutrition-value {
+    margin-left: 200px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+span {
+    font-weight: 700;
+}
+
+li::marker {
+    color: #000;
+}
